@@ -80,9 +80,6 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({
 
         {/* Caption & Metadata */}
         <div className="mt-4 text-center">
-          <span className="inline-block bg-[#F58B25] text-white font-fredoka text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-1">
-            {artwork.category}
-          </span>
           <h3 className="font-barrio text-2xl md:text-3xl text-[#1D232C] tracking-wide mt-1">
             {artwork.title}
           </h3>

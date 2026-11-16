@@ -96,14 +96,11 @@ export const GallerySection: React.FC = () => {
 
                 {/* Caption / Label */}
                 <div className="mt-3 text-center">
-                  <span className="inline-block bg-pink-100 text-[#EA3D91] font-fredoka text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider mb-0.5">
-                    {item.category}
-                  </span>
                   <h4 className="font-barrio text-lg text-[#1D232C] tracking-wide mt-0.5">
                     {item.title}
                   </h4>
                   {item.caption && (
-                    <p className="font-caveat text-sm text-[#4A5568] font-bold">
+                    <p className="font-caveat text-sm text-[#4A5568] font-bold mt-0.5">
                       {item.caption}
                     </p>
                   )}

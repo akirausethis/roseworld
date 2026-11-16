@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { ArrowDown, Sparkles, BookOpen } from "lucide-react";
+import { ArrowDown, Sparkles, BookOpen, Download, FileDown } from "lucide-react";
 import confetti from "canvas-confetti";
 import { Sticker } from "../scrapbook/Sticker";
 import { WashiTape } from "../scrapbook/WashiTape";
@@ -120,6 +120,36 @@ export const CoverSection: React.FC = () => {
                 className="inline-flex items-center gap-2 bg-[#FFFBF2] hover:bg-stone-100 text-[#1D232C] font-fredoka text-base font-semibold px-5 py-3 rounded-full border-2 border-[#1D232C] shadow-sm hover:scale-105 transition-transform"
               >
                 <span>Lihat Karya Saya</span>
+              </a>
+            </div>
+
+            {/* Document Download Options */}
+            <div className="pt-2 flex flex-wrap items-center gap-2.5">
+              <span className="font-caveat text-base md:text-lg text-[#1D232C] font-bold">
+                Unduh Berkas Resmi:
+              </span>
+              <a
+                href="/documents/CV_Rosdyanti_Br_Simarmata.pdf"
+                download="CV_Rosdyanti_Br_Simarmata.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 bg-[#FFF8B8] hover:bg-yellow-200 text-[#422006] font-fredoka text-xs sm:text-sm font-bold px-3.5 py-2 rounded-xl border-2 border-[#1D232C] shadow-xs hover:scale-105 active:scale-95 transition-transform"
+                title="Download CV Resmi Rosdyanti (PDF)"
+              >
+                <FileDown className="w-4 h-4 text-[#F58B25]" />
+                <span>Download CV (PDF)</span>
+              </a>
+
+              <a
+                href="/documents/Portofolio_Rosdyanti_Br_Simarmata.pdf"
+                download="Portofolio_Rosdyanti_Br_Simarmata.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 bg-[#E3F2FD] hover:bg-blue-100 text-[#0C4A6E] font-fredoka text-xs sm:text-sm font-bold px-3.5 py-2 rounded-xl border-2 border-[#1D232C] shadow-xs hover:scale-105 active:scale-95 transition-transform"
+                title="Download Dokumen Portofolio Asli (PDF)"
+              >
+                <Download className="w-4 h-4 text-[#1760D5]" />
+                <span>Download Portofolio (PDF)</span>
               </a>
             </div>
           </div>
