@@ -1,0 +1,278 @@
+{
+  "portraits": [
+    {
+      "filename": "portrait-about.png",
+      "path": "/assets/portraits/portrait-about.png",
+      "width": 1949,
+      "height": 2917,
+      "source": "p2_img10_xref432.png"
+    },
+    {
+      "filename": "portrait-closing.png",
+      "path": "/assets/portraits/portrait-closing.png",
+      "width": 1670,
+      "height": 2501,
+      "source": "p6_img2_xref983.png"
+    },
+    {
+      "filename": "portrait-cover.png",
+      "path": "/assets/portraits/portrait-cover.png",
+      "width": 478,
+      "height": 638,
+      "source": "p1_img13_xref381.png"
+    }
+  ],
+  "backgrounds": [
+    {
+      "filename": "bg-blue-notebook.png",
+      "path": "/assets/backgrounds/bg-blue-notebook.png",
+      "width": 2451,
+      "height": 1829,
+      "source": "p1_img5_xref18.png"
+    },
+    {
+      "filename": "bg-green-locker.png",
+      "path": "/assets/backgrounds/bg-green-locker.png",
+      "width": 3300,
+      "height": 1786,
+      "source": "p2_img2_xref46.png"
+    },
+    {
+      "filename": "bg-corkboard.png",
+      "path": "/assets/backgrounds/bg-corkboard.png",
+      "width": 2800,
+      "height": 2800,
+      "source": "p3_img6_xref62.png"
+    },
+    {
+      "filename": "bg-corkboard-gallery.png",
+      "path": "/assets/backgrounds/bg-corkboard-gallery.png",
+      "width": 2451,
+      "height": 1829,
+      "source": "p4_img2_xref100.png"
+    },
+    {
+      "filename": "bg-outdoor.png",
+      "path": "/assets/backgrounds/bg-outdoor.png",
+      "width": 2400,
+      "height": 1600,
+      "source": "p6_img1_xref155.png"
+    }
+  ],
+  "certificates": [
+    {
+      "filename": "certificate-mikroskil.png",
+      "path": "/assets/certificates/certificate-mikroskil.png",
+      "width": 1080,
+      "height": 607,
+      "source": "p5_img1_xref1311.png"
+    }
+  ],
+  "artworks": [
+    {
+      "filename": "artwork-1.png",
+      "path": "/assets/artworks/artwork-1.png",
+      "width": 605,
+      "height": 807,
+      "source": "p4_img1_xref105.png"
+    },
+    {
+      "filename": "artwork-2.png",
+      "path": "/assets/artworks/artwork-2.png",
+      "width": 573,
+      "height": 764,
+      "source": "p4_img5_xref542.png"
+    },
+    {
+      "filename": "artwork-3.png",
+      "path": "/assets/artworks/artwork-3.png",
+      "width": 908,
+      "height": 1210,
+      "source": "p4_img6_xref545.png"
+    },
+    {
+      "filename": "artwork-4.png",
+      "path": "/assets/artworks/artwork-4.png",
+      "width": 908,
+      "height": 1210,
+      "source": "p4_img7_xref548.png"
+    },
+    {
+      "filename": "artwork-5.png",
+      "path": "/assets/artworks/artwork-5.png",
+      "width": 689,
+      "height": 918,
+      "source": "p4_img8_xref551.png"
+    },
+    {
+      "filename": "artwork-6.png",
+      "path": "/assets/artworks/artwork-6.png",
+      "width": 612,
+      "height": 816,
+      "source": "p4_img9_xref554.png"
+    },
+    {
+      "filename": "artwork-7.png",
+      "path": "/assets/artworks/artwork-7.png",
+      "width": 689,
+      "height": 918,
+      "source": "p4_img10_xref557.png"
+    },
+    {
+      "filename": "artwork-8.png",
+      "path": "/assets/artworks/artwork-8.png",
+      "width": 908,
+      "height": 1210,
+      "source": "p4_img11_xref560.png"
+    },
+    {
+      "filename": "artwork-9.png",
+      "path": "/assets/artworks/artwork-9.png",
+      "width": 410,
+      "height": 512,
+      "source": "p4_img13_xref565.png"
+    },
+    {
+      "filename": "artwork-10.png",
+      "path": "/assets/artworks/artwork-10.png",
+      "width": 432,
+      "height": 768,
+      "source": "p4_img15_xref588.png"
+    },
+    {
+      "filename": "artwork-11.png",
+      "path": "/assets/artworks/artwork-11.png",
+      "width": 689,
+      "height": 918,
+      "source": "p4_img16_xref607.png"
+    }
+  ],
+  "stickers": [
+    {
+      "filename": "sticker-cat.png",
+      "path": "/assets/stickers/sticker-cat.png",
+      "width": 425,
+      "height": 480,
+      "source": "p1_img8_xref40.png"
+    },
+    {
+      "filename": "sticker-heart-pink.png",
+      "path": "/assets/stickers/sticker-heart-pink.png",
+      "width": 746,
+      "height": 648,
+      "source": "p2_img11_xref435.png"
+    },
+    {
+      "filename": "sticker-star-orange.png",
+      "path": "/assets/stickers/sticker-star-orange.png",
+      "width": 428,
+      "height": 427,
+      "source": "p1_img14_xref384.png"
+    },
+    {
+      "filename": "sticker-paperclip.png",
+      "path": "/assets/stickers/sticker-paperclip.png",
+      "width": 379,
+      "height": 301,
+      "source": "p1_img16_xref397.png"
+    },
+    {
+      "filename": "sticker-washi-tape-1.png",
+      "path": "/assets/stickers/sticker-washi-tape-1.png",
+      "width": 720,
+      "height": 255,
+      "source": "p1_img4_xref28.png"
+    },
+    {
+      "filename": "sticker-washi-tape-2.png",
+      "path": "/assets/stickers/sticker-washi-tape-2.png",
+      "width": 720,
+      "height": 180,
+      "source": "p1_img9_xref41.png"
+    },
+    {
+      "filename": "sticker-tag-choice.png",
+      "path": "/assets/stickers/sticker-tag-choice.png",
+      "width": 2114,
+      "height": 337,
+      "source": "p1_img12_xref371.png"
+    },
+    {
+      "filename": "sticker-pin.png",
+      "path": "/assets/stickers/sticker-pin.png",
+      "width": 384,
+      "height": 383,
+      "source": "p4_img3_xref101.png"
+    },
+    {
+      "filename": "sticker-pushpin.png",
+      "path": "/assets/stickers/sticker-pushpin.png",
+      "width": 250,
+      "height": 248,
+      "source": "p4_img4_xref539.png"
+    },
+    {
+      "filename": "sticker-camera.png",
+      "path": "/assets/stickers/sticker-camera.png",
+      "width": 811,
+      "height": 530,
+      "source": "p3_img20_xref492.png"
+    },
+    {
+      "filename": "sticker-doodle-flower.png",
+      "path": "/assets/stickers/sticker-doodle-flower.png",
+      "width": 306,
+      "height": 307,
+      "source": "p2_img1_xref52.png"
+    },
+    {
+      "filename": "sticker-badge-rosee.png",
+      "path": "/assets/stickers/sticker-badge-rosee.png",
+      "width": 720,
+      "height": 631,
+      "source": "p2_img7_xref426.png"
+    },
+    {
+      "filename": "sticker-pencil.png",
+      "path": "/assets/stickers/sticker-pencil.png",
+      "width": 592,
+      "height": 499,
+      "source": "p1_img6_xref36.png"
+    },
+    {
+      "filename": "sticker-tape-yellow.png",
+      "path": "/assets/stickers/sticker-tape-yellow.png",
+      "width": 534,
+      "height": 191,
+      "source": "p3_img7_xref83.png"
+    },
+    {
+      "filename": "sticker-tape-pink.png",
+      "path": "/assets/stickers/sticker-tape-pink.png",
+      "width": 480,
+      "height": 253,
+      "source": "p3_img10_xref87.png"
+    },
+    {
+      "filename": "sticker-sparkle.png",
+      "path": "/assets/stickers/sticker-sparkle.png",
+      "width": 209,
+      "height": 209,
+      "source": "p3_img16_xref479.png"
+    },
+    {
+      "filename": "sticker-heart-small.png",
+      "path": "/assets/stickers/sticker-heart-small.png",
+      "width": 154,
+      "height": 154,
+      "source": "p3_img17_xref482.png"
+    },
+    {
+      "filename": "sticker-flower-small.png",
+      "path": "/assets/stickers/sticker-flower-small.png",
+      "width": 166,
+      "height": 166,
+      "source": "p3_img23_xref528.png"
+    }
+  ]
+}

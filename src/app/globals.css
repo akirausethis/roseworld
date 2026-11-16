@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700;800&family=Patrick+Hand&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Shantell+Sans:ital,wght@0,500;0,700;1,700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --pink-primary: #EA3D91;
+  --pink-light: #FDE8F1;
+  --green-locker: #168B5E;
+  --green-light: #E3F5EC;
+  --blue-notebook: #1760D5;
+  --blue-light: #E8F1FC;
+  --orange-accent: #F58B25;
+  --orange-light: #FEF2E6;
+  --yellow-sticky: #FFF8B8;
+  --cream-paper: #FFFBF2;
+  --cork-brown: #A66B49;
+  --ink-charcoal: #1D232C;
+  --ink-muted: #4A5568;
+}
+
+body {
+  background-color: #F8F9FA;
+  color: var(--ink-charcoal);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Typography Utilities */
+.font-barrio {
+  font-family: 'Barrio', cursive, system-ui;
+}
+
+.font-fredoka {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+.font-marker {
+  font-family: 'Patrick Hand', 'Shantell Sans', cursive, sans-serif;
+}
+
+.font-shantell {
+  font-family: 'Shantell Sans', cursive, sans-serif;
+}
+
+/* Grid Paper Patterns */
+.bg-grid-blue {
+  background-color: #EBF3FC;
+  background-image: 
+    linear-gradient(to right, rgba(23, 96, 213, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 96, 213, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-grid-pink {
+  background-color: #FDF2F7;
+  background-image: 
+    linear-gradient(to right, rgba(234, 61, 145, 0.14) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(234, 61, 145, 0.14) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-grid-green {
+  background-color: #EFF8F4;
+  background-image: 
+    linear-gradient(to right, rgba(22, 139, 94, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(22, 139, 94, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dots {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.1) 1.5px, transparent 1.5px);
+  background-size: 16px 16px;
+}
+
+/* Paper and Scrapbook Shadows */
+.shadow-scrapbook {
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.08),
+    0 10px 25px -3px rgba(0, 0, 0, 0.14),
+    0 0 0 1px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-polaroid {
+  box-shadow: 
+    0 8px 16px -2px rgba(0, 0, 0, 0.16),
+    0 2px 4px -1px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-sticker {
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+.shadow-lifted {
+  box-shadow: 
+    0 12px 28px -5px rgba(0, 0, 0, 0.2),
+    0 4px 10px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Washi Tape Effect */
+.washi-tape-strip {
+  position: relative;
+  background: rgba(254, 243, 199, 0.85);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-left: 2px dashed rgba(217, 119, 6, 0.3);
+  border-right: 2px dashed rgba(217, 119, 6, 0.3);
+}
+
+.washi-tape-pink {
+  background: rgba(251, 207, 232, 0.85);
+  border-left: 2px dashed rgba(219, 39, 119, 0.3);
+  border-right: 2px dashed rgba(219, 39, 119, 0.3);
+}
+
+.washi-tape-blue {
+  background: rgba(191, 219, 254, 0.85);
+  border-left: 2px dashed rgba(37, 99, 235, 0.3);
+  border-right: 2px dashed rgba(37, 99, 235, 0.3);
+}
+
+.washi-tape-green {
+  background: rgba(187, 247, 208, 0.85);
+  border-left: 2px dashed rgba(22, 163, 74, 0.3);
+  border-right: 2px dashed rgba(22, 163, 74, 0.3);
+}
+
+/* Corkboard Background Texture */
+.bg-corkboard-rich {
+  background-color: #9C6644;
+  background-image: 
+    radial-gradient(rgba(120, 70, 40, 0.7) 15%, transparent 16%),
+    radial-gradient(rgba(70, 40, 20, 0.6) 15%, transparent 16%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+/* Notebook Ruled Paper */
+.bg-notebook-lines {
+  background-color: #FFFDF9;
+  background-image: 
+    linear-gradient(90deg, transparent 40px, #FF6B81 40px, #FF6B81 42px, transparent 42px),
+    linear-gradient(#E2E8F0 1px, transparent 1px);
+  background-size: 100% 100%, 100% 28px;
+}
+
+/* Smooth Transitions & Hover States */
+.scrapbook-hover {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+}
+
+.scrapbook-hover:hover {
+  transform: translateY(-4px) scale(1.02) rotate(0deg);
+  box-shadow: 0 16px 32px -4px rgba(0, 0, 0, 0.18);
+  z-index: 20;
+}
+
+/* Accessible reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
