@@ -67,27 +67,15 @@ export const ArtworkModal: React.FC<ArtworkModalProps> = ({
         </button>
 
         {/* Image Frame */}
-        <div className="relative w-full max-h-[70vh] bg-[#F9FAFB] rounded-lg overflow-hidden border-2 border-stone-200 flex items-center justify-center">
+        <div className="relative w-full max-h-[78vh] bg-[#F9FAFB] rounded-lg overflow-hidden border-2 border-stone-200 flex items-center justify-center">
           <Image
             src={artwork.image}
-            alt={artwork.title}
+            alt="Foto Polaroid Karya Penuh"
             width={artwork.width || 800}
             height={artwork.height || 1000}
-            className="w-auto h-auto max-h-[70vh] object-contain mx-auto"
+            className="w-auto h-auto max-h-[78vh] object-contain mx-auto"
             priority
           />
-        </div>
-
-        {/* Caption & Metadata */}
-        <div className="mt-4 text-center">
-          <h3 className="font-barrio text-2xl md:text-3xl text-[#1D232C] tracking-wide mt-1">
-            {artwork.title}
-          </h3>
-          {artwork.caption && (
-            <p className="font-caveat text-xl text-[#4A5568] mt-1 font-semibold">
-              {artwork.caption}
-            </p>
-          )}
         </div>
       </div>
     </div>

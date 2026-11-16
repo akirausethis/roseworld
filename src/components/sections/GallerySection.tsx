@@ -64,10 +64,10 @@ export const GallerySection: React.FC = () => {
               <div
                 key={item.id}
                 onClick={() => setSelectedArtwork(item)}
-                className={`group relative bg-white p-3.5 pb-5 rounded-md shadow-polaroid border border-black/15 transition-all duration-300 ease-out hover:scale-105 hover:rotate-0 hover:shadow-lifted hover:z-30 cursor-pointer ${item.rotation}`}
+                className={`group relative bg-white p-3.5 pb-10 rounded-md shadow-polaroid border border-black/15 transition-all duration-300 ease-out hover:scale-105 hover:rotate-0 hover:shadow-lifted hover:z-30 cursor-pointer ${item.rotation}`}
                 role="button"
                 tabIndex={0}
-                aria-label={`Lihat ${item.title}`}
+                aria-label="Lihat foto polaroid karya"
                 onKeyDown={(e) => {
                   if (e.key === "Enter" || e.key === " ") setSelectedArtwork(item);
                 }}
@@ -81,7 +81,7 @@ export const GallerySection: React.FC = () => {
                 <div className="relative w-full aspect-[3/4] overflow-hidden rounded-xs bg-stone-100 border border-stone-200">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt="Foto Polaroid Karya Rosee"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -92,18 +92,6 @@ export const GallerySection: React.FC = () => {
                       <Eye className="w-3.5 h-3.5" /> Perbesar
                     </span>
                   </div>
-                </div>
-
-                {/* Caption / Label */}
-                <div className="mt-3 text-center">
-                  <h4 className="font-barrio text-lg text-[#1D232C] tracking-wide mt-0.5">
-                    {item.title}
-                  </h4>
-                  {item.caption && (
-                    <p className="font-caveat text-sm text-[#4A5568] font-bold mt-0.5">
-                      {item.caption}
-                    </p>
-                  )}
                 </div>
               </div>
             );
