@@ -173,6 +173,54 @@ body {
   z-index: 20;
 }
 
+/* Cute Entrance Animations */
+@keyframes cuteFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes cuteWiggle {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes candyStripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 0;
+  }
+}
+
+.animate-cute-float {
+  animation: cuteFloat 3s ease-in-out infinite;
+}
+
+.animate-cute-wiggle {
+  animation: cuteWiggle 1.8s ease-in-out infinite;
+}
+
+.animate-candy-bar {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.25) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  background-size: 30px 30px;
+  animation: candyStripes 1s linear infinite;
+}
+
 /* Accessible reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {

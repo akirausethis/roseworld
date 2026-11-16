@@ -151,6 +151,18 @@ export const CoverSection: React.FC = () => {
                 <Download className="w-4 h-4 text-[#1760D5]" />
                 <span>Download Portofolio (PDF)</span>
               </a>
+
+              <button
+                type="button"
+                onClick={() => {
+                  window.dispatchEvent(new CustomEvent("open-intro-animation"));
+                }}
+                className="inline-flex items-center gap-1.5 bg-[#FDE8F1] hover:bg-pink-100 text-[#EA3D91] font-fredoka text-xs sm:text-sm font-bold px-3 py-2 rounded-xl border-2 border-[#EA3D91]/40 shadow-xs hover:scale-105 active:scale-95 transition-transform cursor-pointer"
+                title="Putar kembali animasi pembuka lucu"
+              >
+                <Sparkles className="w-4 h-4 text-[#EA3D91]" />
+                <span>Putar Animasi Pembuka 🐱</span>
+              </button>
             </div>
           </div>
 

@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/layout/Navbar";
+import { IntroAnimation } from "@/components/scrapbook/IntroAnimation";
 import { CoverSection } from "@/components/sections/CoverSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { SkillsSection } from "@/components/sections/SkillsSection";
@@ -12,6 +13,9 @@ import { ContactSection } from "@/components/sections/ContactSection";
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-[#FDFBF7]">
+      {/* Cute Colorful Scrapbook Intro Entrance Animation */}
+      <IntroAnimation />
+
       {/* Scrapbook Navigation */}
       <Navbar />
 
