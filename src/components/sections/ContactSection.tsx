@@ -60,7 +60,7 @@ export const ContactSection: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center">
             {/* Left Column: Portrait and Stickers */}
             <div className="md:col-span-5 flex flex-col items-center">
-              <div className="relative w-56 sm:w-64 md:w-72 aspect-[3/4] bg-white p-3.5 rounded-2xl shadow-polaroid border-3 border-[#1D232C] rotate-2 hover:rotate-0 transition-transform">
+              <div className="relative w-56 sm:w-64 md:w-72 aspect-[4/5] bg-white p-3.5 rounded-2xl shadow-polaroid border-3 border-[#1D232C] rotate-2 hover:rotate-0 transition-transform">
                 {/* Heart sticker */}
                 <div className="absolute -top-4 -right-4 z-30">
                   <Sticker
@@ -87,10 +87,10 @@ export const ContactSection: React.FC = () => {
 
                 <div className="relative w-full h-full overflow-hidden rounded-xl bg-stone-100">
                   <Image
-                    src="/assets/portraits/portrait-closing.png"
+                    src="/assets/portraits/portrait-campus-solo.jpg"
                     alt="Rosdyanti Br Simarmata"
                     fill
-                    className="object-cover object-top"
+                    className="object-cover object-[center_60%]"
                     sizes="(max-width: 768px) 100vw, 320px"
                     priority
                   />

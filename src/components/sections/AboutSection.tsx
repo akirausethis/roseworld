@@ -63,7 +63,7 @@ export const AboutSection: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             {/* Left Column: Scrapbook Heart-framed Portrait */}
             <div className="lg:col-span-5 flex flex-col items-center">
-              <div className="relative w-64 sm:w-72 md:w-80 aspect-[3/4] bg-white p-3.5 rounded-2xl shadow-polaroid border-3 border-[#1D232C] -rotate-2 hover:rotate-0 transition-transform duration-300">
+              <div className="relative w-64 sm:w-72 md:w-80 aspect-[4/5] bg-white p-3.5 rounded-2xl shadow-polaroid border-3 border-[#1D232C] -rotate-2 hover:rotate-0 transition-transform duration-300">
                 {/* Heart Sticker on top-left */}
                 <div className="absolute -top-5 -left-5 z-30">
                   <Sticker
@@ -90,10 +90,10 @@ export const AboutSection: React.FC = () => {
                 {/* Portrait Photo */}
                 <div className="relative w-full h-full overflow-hidden rounded-xl bg-stone-100">
                   <Image
-                    src="/assets/portraits/portrait-about.png"
+                    src="/assets/portraits/portrait-bookstore-solo.jpg"
                     alt="Foto Profil Rosdyanti Br Simarmata"
                     fill
-                    className="object-cover object-top"
+                    className="object-cover object-[center_55%]"
                     sizes="(max-width: 768px) 100vw, 350px"
                     priority
                   />
