@@ -84,9 +84,24 @@ export interface EducationItem {
   color: string;
 }
 
+export interface SupportingApp {
+  id: string;
+  name: string;
+  role: string;
+  category: string;
+  description: string;
+  folderImage: string;
+  badgeBg: string;
+  badgeBorder: string;
+  badgeText: string;
+  folderColorName: string;
+  rotation: string;
+}
+
 export const portfolioData: {
   profile: ProfileData;
   skillCategories: SkillCategory[];
+  supportingApps: SupportingApp[];
   organizationalExperience: ExperienceItem[];
   committeeExperience: CommitteeItem[];
   artworks: Artwork[];
@@ -154,6 +169,87 @@ export const portfolioData: {
         { name: "Manajemen Waktu", description: "Disiplin pembagian waktu akademik dan kepanitiaan" },
         { name: "Tanggung Jawab & Kepemimpinan", description: "Berintegritas tinggi dalam menyelesaikan amanah tim" }
       ]
+    }
+  ],
+
+  supportingApps: [
+    {
+      id: "capcut",
+      name: "CapCut",
+      role: "Video Editing & Content Creation",
+      category: "Video Media",
+      description: "Pembuatan konten vlog, video wawancara, tutorial edukasi, serta video dokumentasi interaktif.",
+      folderImage: "/assets/apps/folder-capcut-clean.png",
+      badgeBg: "bg-pink-100",
+      badgeBorder: "border-pink-300",
+      badgeText: "text-[#EA3D91]",
+      folderColorName: "Pink Folder",
+      rotation: "-rotate-2"
+    },
+    {
+      id: "picsart",
+      name: "Picsart",
+      role: "Photo Editing & Visual Collage",
+      category: "Photo Creative",
+      description: "Eksplorasi edit foto kreatif, filter estetik, stiker visual, dan kolase gambar artistik.",
+      folderImage: "/assets/apps/folder-picsart-clean.png",
+      badgeBg: "bg-indigo-100",
+      badgeBorder: "border-indigo-300",
+      badgeText: "text-indigo-700",
+      folderColorName: "Blue Folder",
+      rotation: "rotate-1"
+    },
+    {
+      id: "pinterest",
+      name: "Pinterest",
+      role: "Visual Moodboard & Inspiration",
+      category: "Ideation & Ref",
+      description: "Pencarian inspirasi desain, eksplorasi palet warna scrapbook, ide fotografi, dan layout visual.",
+      folderImage: "/assets/apps/folder-pinterest-clean.png",
+      badgeBg: "bg-amber-100",
+      badgeBorder: "border-amber-300",
+      badgeText: "text-amber-800",
+      folderColorName: "Yellow Folder",
+      rotation: "-rotate-1"
+    },
+    {
+      id: "photoshop",
+      name: "Adobe Photoshop",
+      role: "Graphic Design & Digital Imaging",
+      category: "Graphic Design",
+      description: "Desain grafis presisi, pembuatan logo (kompetisi Hari Ozon 2023), poster tematik, dan olah raster.",
+      folderImage: "/assets/apps/folder-photoshop-clean.png",
+      badgeBg: "bg-emerald-100",
+      badgeBorder: "border-emerald-300",
+      badgeText: "text-emerald-800",
+      folderColorName: "Green Folder",
+      rotation: "rotate-2"
+    },
+    {
+      id: "canva",
+      name: "Canva",
+      role: "Layout, Presentation & Publishing",
+      category: "Layout & Editorial",
+      description: "Perancangan cover buku sejak SMA, materi presentasi perkuliahan, dan feed media sosial.",
+      folderImage: "/assets/apps/folder-canva-clean.png",
+      badgeBg: "bg-orange-100",
+      badgeBorder: "border-orange-300",
+      badgeText: "text-[#F58B25]",
+      folderColorName: "Orange Folder",
+      rotation: "-rotate-2"
+    },
+    {
+      id: "alightmotion",
+      name: "Alight Motion",
+      role: "Motion Graphics & Animation",
+      category: "Motion & VFX",
+      description: "Pembuatan animasi teks dinamis, transisi visual bergerak, efek visual, dan keyframe editing.",
+      folderImage: "/assets/apps/folder-alightmotion-clean.png",
+      badgeBg: "bg-purple-100",
+      badgeBorder: "border-purple-300",
+      badgeText: "text-purple-700",
+      folderColorName: "Purple Folder",
+      rotation: "rotate-1"
     }
   ],
 
