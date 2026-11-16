@@ -11,24 +11,6 @@ import { ArtworkModal } from "../gallery/ArtworkModal";
 export const GallerySection: React.FC = () => {
   const { artworks } = portfolioData;
   const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
-  const [filter, setFilter] = useState<string>("all");
-
-  const categories = [
-    { id: "all", label: "Semua Karya" },
-    { id: "poster", label: "Desain Grafis & Poster" },
-    { id: "drawing", label: "Gambar & Seni Rupa" },
-    { id: "cover", label: "Cover Buku & Publikasi" },
-    { id: "photo", label: "Dokumentasi Visual" }
-  ];
-
-  const filteredArtworks = artworks.filter((item) => {
-    if (filter === "all") return true;
-    if (filter === "poster") return item.category.toLowerCase().includes("poster") || item.category.toLowerCase().includes("grafis");
-    if (filter === "drawing") return item.category.toLowerCase().includes("gambar") || item.category.toLowerCase().includes("seni");
-    if (filter === "cover") return item.category.toLowerCase().includes("cover") || item.category.toLowerCase().includes("publikasi");
-    if (filter === "photo") return item.category.toLowerCase().includes("foto") || item.category.toLowerCase().includes("sinematik");
-    return true;
-  });
 
   const pinColorVariants: ("red" | "yellow" | "blue" | "pink" | "green" | "gold")[] = [
     "red",
@@ -63,37 +45,20 @@ export const GallerySection: React.FC = () => {
 
       <div className="relative max-w-7xl mx-auto z-10">
         {/* Section Heading */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-12">
           <div className="inline-block bg-[#FFFBF2] px-8 py-3.5 rounded-2xl border-4 border-[#1D232C] shadow-scrapbook -rotate-1 hover:rotate-0 transition-transform">
             <span className="font-barrio text-3xl sm:text-4xl md:text-5xl text-[#EA3D91] tracking-wide flex items-center justify-center gap-2">
-              <Palette className="w-8 h-8 text-[#F58B25]" /> DESAIN GAMBAR
+              <Palette className="w-8 h-8 text-[#F58B25]" /> KARYA SAYA
             </span>
             <p className="font-caveat text-xl sm:text-2xl text-[#1760D5] font-bold mt-1">
-              &ldquo;My Little Creations&rdquo; — Karya Seni Asli Rosdyanti Br Simarmata
+              &ldquo;My Little Creations&rdquo; — Karya Seni &amp; Visual Asli Rosdyanti Br Simarmata
             </p>
           </div>
         </div>
 
-        {/* Filter Paper Tags */}
-        <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 mb-12">
-          {categories.map((cat) => (
-            <button
-              key={cat.id}
-              onClick={() => setFilter(cat.id)}
-              className={`font-fredoka text-xs sm:text-sm font-bold px-4 py-2 rounded-full border-2 border-[#1D232C] shadow-scrapbook transition-all duration-200 active:scale-95 ${
-                filter === cat.id
-                  ? "bg-[#EA3D91] text-white -rotate-1 scale-105"
-                  : "bg-[#FFFBF2] text-[#1D232C] hover:bg-stone-100"
-              }`}
-            >
-              {cat.label}
-            </button>
-          ))}
-        </div>
-
         {/* Corkboard Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 items-start">
-          {filteredArtworks.map((item, index) => {
+          {artworks.map((item, index) => {
             const pinColor = pinColorVariants[index % pinColorVariants.length];
             return (
               <div

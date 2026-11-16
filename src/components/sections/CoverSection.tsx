@@ -119,7 +119,7 @@ export const CoverSection: React.FC = () => {
                 href="#gallery"
                 className="inline-flex items-center gap-2 bg-[#FFFBF2] hover:bg-stone-100 text-[#1D232C] font-fredoka text-base font-semibold px-5 py-3 rounded-full border-2 border-[#1D232C] shadow-sm hover:scale-105 transition-transform"
               >
-                <span>Lihat Karya Visual</span>
+                <span>Lihat Karya Saya</span>
               </a>
             </div>
           </div>

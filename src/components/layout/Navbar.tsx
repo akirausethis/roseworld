@@ -9,7 +9,7 @@ const navItems = [
   { href: "#skills", label: "Keahlian", color: "bg-[#F58B25] text-white hover:bg-orange-600" },
   { href: "#organizations", label: "Organisasi", color: "bg-[#238B68] text-white hover:bg-emerald-700" },
   { href: "#committees", label: "Kepanitiaan", color: "bg-[#1760D5] text-white hover:bg-blue-700" },
-  { href: "#gallery", label: "Karya Visual", color: "bg-[#EA3D91] text-white hover:bg-pink-700" },
+  { href: "#gallery", label: "Karya Saya", color: "bg-[#EA3D91] text-white hover:bg-pink-700" },
   { href: "#certificates", label: "Prestasi", color: "bg-[#238B68] text-white hover:bg-emerald-700" },
   { href: "#education", label: "Pendidikan", color: "bg-[#F58B25] text-white hover:bg-orange-600" },
   { href: "#contact", label: "Kontak", color: "bg-[#1D232C] text-white hover:bg-black" }
